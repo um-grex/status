@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><link rel="alternate" type="text/html" href="https://um-grex.github.io/grex-status/"/><title>OpenOnDemand Portal on Status of the Grex HPC system</title><link>https://um-grex.github.io/grex-status/affected/openondemand-portal/</link><description>Incident history</description><generator>github.com/cstate</generator><language>en-us</language><lastBuildDate>2025-12-08T08:00:00+00:00</lastBuildDate><updated>2025-12-08T08:00:00+00:00</updated><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-status/affected/openondemand-portal/index.xml" rel="self" type="application/rss+xml"/><item><title>[Resolved] Planned Grex outage - updating storage</title><link>https://um-grex.github.io/grex-status/issues/2025-12-08-planned-storage-outage/</link><pubDate>Mon, 08 Dec 2025 08:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2025-12-08-planned-storage-outage/</guid><category>2025-12-08 12:00:00</category><description>&lt;h4 id="planned-project-storage-outage-resolved"&gt;Planned /project storage outage resolved&lt;/h4&gt;
+&lt;p&gt;The project outage is resolved.&lt;/p&gt;
+&lt;h4 id="a-planned-project-storage-outage"&gt;A planned /project storage outage&lt;/h4&gt;
+&lt;p&gt;We will be performing a planned outage of the Grex HPC system, starting at 8AM on Monday, December 8, 2025. We expect the outage to last one working day.&lt;/p&gt;
+&lt;p&gt;We will perform hardware maintenance on our Lustre storage controller.&lt;/p&gt;
+&lt;p&gt;During the outage, OpenOnDemand, Storage, and Login nodes will not be available, and all running jobs will be stopped. The outage will not affect the users’ data.&lt;/p&gt;</description><content type="html">&lt;h4 id="planned-project-storage-outage-resolved"&gt;Planned /project storage outage resolved&lt;/h4&gt;
+&lt;p&gt;The project outage is resolved.&lt;/p&gt;
+&lt;h4 id="a-planned-project-storage-outage"&gt;A planned /project storage outage&lt;/h4&gt;
+&lt;p&gt;We will be performing a planned outage of the Grex HPC system, starting at 8AM on Monday, December 8, 2025. We expect the outage to last one working day.&lt;/p&gt;
+&lt;p&gt;We will perform hardware maintenance on our Lustre storage controller.&lt;/p&gt;
+&lt;p&gt;During the outage, OpenOnDemand, Storage, and Login nodes will not be available, and all running jobs will be stopped. The outage will not affect the users’ data.&lt;/p&gt;</content></item><item><title>[Resolved] Planned Grex outage, updating storage and patching operating system</title><link>https://um-grex.github.io/grex-status/issues/2025-09-24-planned-updates-outage/</link><pubDate>Wed, 24 Sep 2025 08:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2025-09-24-planned-updates-outage/</guid><category>2025-09-26 17:50:00</category><description>&lt;h4 id="the-outage-completed"&gt;The outage completed&lt;/h4&gt;
+&lt;p&gt;Grex is operating normally. Queued jobs were not affected and are now running. Thank you for your patience!
+If you notice any issues or abnormalites, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;
+&lt;h4 id="a-planned-project-storage-and-compute-outage"&gt;A planned /project storage and Compute outage&lt;/h4&gt;
+&lt;p&gt;A /project storage outage to update Lustre filesystem software is in progress on Grex!
+This requires a quiet filesystem so the system is drained from running jobs and access throgh login nodes and OpenOndemand is closed to users.
+We will also use the outage to apply various security patches to the Linux OS on Grex , as well as performing other software updates.
+ETA for the outage end is Friday , Sept 26. Thank you for your patience!&lt;/p&gt;</description><content type="html">&lt;h4 id="the-outage-completed"&gt;The outage completed&lt;/h4&gt;
+&lt;p&gt;Grex is operating normally. Queued jobs were not affected and are now running. Thank you for your patience!
+If you notice any issues or abnormalites, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;
+&lt;h4 id="a-planned-project-storage-and-compute-outage"&gt;A planned /project storage and Compute outage&lt;/h4&gt;
+&lt;p&gt;A /project storage outage to update Lustre filesystem software is in progress on Grex!
+This requires a quiet filesystem so the system is drained from running jobs and access throgh login nodes and OpenOndemand is closed to users.
+We will also use the outage to apply various security patches to the Linux OS on Grex , as well as performing other software updates.
+ETA for the outage end is Friday , Sept 26. Thank you for your patience!&lt;/p&gt;</content></item><item><title>[Resolved] Unplanned power outage in HPCC, Grex down</title><link>https://um-grex.github.io/grex-status/issues/2025-04-23-unplanned-power-outage/</link><pubDate>Wed, 23 Apr 2025 09:10:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2025-04-23-unplanned-power-outage/</guid><category>2025-04-23 12:40:00</category><description>&lt;h4 id="power-to-the-hpcc-centre-restored"&gt;Power to the HPCC Centre restored&lt;/h4&gt;
+&lt;p&gt;Manitoba Hydro had restored power to Campus, and Grex is back online.
+All running and queued jobs were lost during the outage.
+We have used the opportunity to update SLURM scheduler to the current major version 24.11 .
+All Grex subsystems (compute, storage, login nodes and Web portal) are operational.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</description><content type="html">&lt;h4 id="power-to-the-hpcc-centre-restored"&gt;Power to the HPCC Centre restored&lt;/h4&gt;
+&lt;p&gt;Manitoba Hydro had restored power to Campus, and Grex is back online.
+All running and queued jobs were lost during the outage.
+We have used the opportunity to update SLURM scheduler to the current major version 24.11 .
+All Grex subsystems (compute, storage, login nodes and Web portal) are operational.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;
+&lt;h4 id="a-power-outage-happened-in-hpcc-centre"&gt;A power outage happened in HPCC Centre&lt;/h4&gt;
+&lt;p&gt;A power outage in Grex&amp;rsquo;s datacentre happened , with a complete loss of power at about 9:10 AM Winnipeg time.
+The system is down. The reason for the outage is a problem at Manitoba Hydro, our electricity provider.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://account.hydro.mb.ca/Portal/outeroutage.aspx"&gt;https://account.hydro.mb.ca/Portal/outeroutage.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are waiting for the power to be restored. Thank you for your patience!&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</content></item><item><title>[Resolved] Planned HPCC datacentre power outage</title><link>https://um-grex.github.io/grex-status/issues/2025-02-23-hpcc-poweroutage/</link><pubDate>Sun, 23 Feb 2025 07:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2025-02-23-hpcc-poweroutage/</guid><category>2025-02-24 17:10:00</category><description>&lt;h4 id="hpcc-planned-power-outage-update"&gt;HPCC planned power outage update&lt;/h4&gt;
+&lt;p&gt;The outage started on Feb 23 is over. Grex is operational. Some of
+the GPU compute nodes may still be unavailable, and will be in production shortly.&lt;/p&gt;
+&lt;h4 id="hpcc-planned-power-outage"&gt;HPCC planned power outage&lt;/h4&gt;
+&lt;p&gt;Physical Plant had informed us that it plans to shut down power feed for transformer work, to several buildings including HPCC where Grex is located.
+For this reason, we have a complete Grex outage starting from 7 AM, Feb 23, 2025. The planned end of the outage is by the end of the day on Monday, Feb 24.
+The system is completely be unavailable to the users. Login nodes and data are not be accessible during the outage.&lt;/p&gt;</description><content type="html">&lt;h4 id="hpcc-planned-power-outage-update"&gt;HPCC planned power outage update&lt;/h4&gt;
+&lt;p&gt;The outage started on Feb 23 is over. Grex is operational. Some of
+the GPU compute nodes may still be unavailable, and will be in production shortly.&lt;/p&gt;
+&lt;h4 id="hpcc-planned-power-outage"&gt;HPCC planned power outage&lt;/h4&gt;
+&lt;p&gt;Physical Plant had informed us that it plans to shut down power feed for transformer work, to several buildings including HPCC where Grex is located.
+For this reason, we have a complete Grex outage starting from 7 AM, Feb 23, 2025. The planned end of the outage is by the end of the day on Monday, Feb 24.
+The system is completely be unavailable to the users. Login nodes and data are not be accessible during the outage.&lt;/p&gt;</content></item></channel></rss>

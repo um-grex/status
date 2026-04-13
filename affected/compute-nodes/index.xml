@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><link rel="alternate" type="text/html" href="https://um-grex.github.io/grex-status/"/><title>Compute Nodes on Status of the Grex HPC system</title><link>https://um-grex.github.io/grex-status/affected/compute-nodes/</link><description>Incident history</description><generator>github.com/cstate</generator><language>en-us</language><lastBuildDate>2025-12-08T08:00:00+00:00</lastBuildDate><updated>2025-12-08T08:00:00+00:00</updated><copyright>The MIT License (MIT) Copyright © 2025 UM-Grex</copyright><atom:link href="https://um-grex.github.io/grex-status/affected/compute-nodes/index.xml" rel="self" type="application/rss+xml"/><item><title>[Resolved] Planned Grex outage - updating storage</title><link>https://um-grex.github.io/grex-status/issues/2025-12-08-planned-storage-outage/</link><pubDate>Mon, 08 Dec 2025 08:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2025-12-08-planned-storage-outage/</guid><category>2025-12-08 12:00:00</category><description>&lt;h4 id="planned-project-storage-outage-resolved"&gt;Planned /project storage outage resolved&lt;/h4&gt;
+&lt;p&gt;The project outage is resolved.&lt;/p&gt;
+&lt;h4 id="a-planned-project-storage-outage"&gt;A planned /project storage outage&lt;/h4&gt;
+&lt;p&gt;We will be performing a planned outage of the Grex HPC system, starting at 8AM on Monday, December 8, 2025. We expect the outage to last one working day.&lt;/p&gt;
+&lt;p&gt;We will perform hardware maintenance on our Lustre storage controller.&lt;/p&gt;
+&lt;p&gt;During the outage, OpenOnDemand, Storage, and Login nodes will not be available, and all running jobs will be stopped. The outage will not affect the users’ data.&lt;/p&gt;</description><content type="html">&lt;h4 id="planned-project-storage-outage-resolved"&gt;Planned /project storage outage resolved&lt;/h4&gt;
+&lt;p&gt;The project outage is resolved.&lt;/p&gt;
+&lt;h4 id="a-planned-project-storage-outage"&gt;A planned /project storage outage&lt;/h4&gt;
+&lt;p&gt;We will be performing a planned outage of the Grex HPC system, starting at 8AM on Monday, December 8, 2025. We expect the outage to last one working day.&lt;/p&gt;
+&lt;p&gt;We will perform hardware maintenance on our Lustre storage controller.&lt;/p&gt;
+&lt;p&gt;During the outage, OpenOnDemand, Storage, and Login nodes will not be available, and all running jobs will be stopped. The outage will not affect the users’ data.&lt;/p&gt;</content></item><item><title>[Resolved] Planned Grex outage, updating storage and patching operating system</title><link>https://um-grex.github.io/grex-status/issues/2025-09-24-planned-updates-outage/</link><pubDate>Wed, 24 Sep 2025 08:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2025-09-24-planned-updates-outage/</guid><category>2025-09-26 17:50:00</category><description>&lt;h4 id="the-outage-completed"&gt;The outage completed&lt;/h4&gt;
+&lt;p&gt;Grex is operating normally. Queued jobs were not affected and are now running. Thank you for your patience!
+If you notice any issues or abnormalites, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;
+&lt;h4 id="a-planned-project-storage-and-compute-outage"&gt;A planned /project storage and Compute outage&lt;/h4&gt;
+&lt;p&gt;A /project storage outage to update Lustre filesystem software is in progress on Grex!
+This requires a quiet filesystem so the system is drained from running jobs and access throgh login nodes and OpenOndemand is closed to users.
+We will also use the outage to apply various security patches to the Linux OS on Grex , as well as performing other software updates.
+ETA for the outage end is Friday , Sept 26. Thank you for your patience!&lt;/p&gt;</description><content type="html">&lt;h4 id="the-outage-completed"&gt;The outage completed&lt;/h4&gt;
+&lt;p&gt;Grex is operating normally. Queued jobs were not affected and are now running. Thank you for your patience!
+If you notice any issues or abnormalites, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;
+&lt;h4 id="a-planned-project-storage-and-compute-outage"&gt;A planned /project storage and Compute outage&lt;/h4&gt;
+&lt;p&gt;A /project storage outage to update Lustre filesystem software is in progress on Grex!
+This requires a quiet filesystem so the system is drained from running jobs and access throgh login nodes and OpenOndemand is closed to users.
+We will also use the outage to apply various security patches to the Linux OS on Grex , as well as performing other software updates.
+ETA for the outage end is Friday , Sept 26. Thank you for your patience!&lt;/p&gt;</content></item><item><title>[Resolved] Unplanned power outage in HPCC, Grex down</title><link>https://um-grex.github.io/grex-status/issues/2025-04-23-unplanned-power-outage/</link><pubDate>Wed, 23 Apr 2025 09:10:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2025-04-23-unplanned-power-outage/</guid><category>2025-04-23 12:40:00</category><description>&lt;h4 id="power-to-the-hpcc-centre-restored"&gt;Power to the HPCC Centre restored&lt;/h4&gt;
+&lt;p&gt;Manitoba Hydro had restored power to Campus, and Grex is back online.
+All running and queued jobs were lost during the outage.
+We have used the opportunity to update SLURM scheduler to the current major version 24.11 .
+All Grex subsystems (compute, storage, login nodes and Web portal) are operational.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</description><content type="html">&lt;h4 id="power-to-the-hpcc-centre-restored"&gt;Power to the HPCC Centre restored&lt;/h4&gt;
+&lt;p&gt;Manitoba Hydro had restored power to Campus, and Grex is back online.
+All running and queued jobs were lost during the outage.
+We have used the opportunity to update SLURM scheduler to the current major version 24.11 .
+All Grex subsystems (compute, storage, login nodes and Web portal) are operational.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;
+&lt;h4 id="a-power-outage-happened-in-hpcc-centre"&gt;A power outage happened in HPCC Centre&lt;/h4&gt;
+&lt;p&gt;A power outage in Grex&amp;rsquo;s datacentre happened , with a complete loss of power at about 9:10 AM Winnipeg time.
+The system is down. The reason for the outage is a problem at Manitoba Hydro, our electricity provider.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://account.hydro.mb.ca/Portal/outeroutage.aspx"&gt;https://account.hydro.mb.ca/Portal/outeroutage.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are waiting for the power to be restored. Thank you for your patience!&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</content></item><item><title>[Resolved] Planned HPCC datacentre power outage</title><link>https://um-grex.github.io/grex-status/issues/2025-02-23-hpcc-poweroutage/</link><pubDate>Sun, 23 Feb 2025 07:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2025-02-23-hpcc-poweroutage/</guid><category>2025-02-24 17:10:00</category><description>&lt;h4 id="hpcc-planned-power-outage-update"&gt;HPCC planned power outage update&lt;/h4&gt;
+&lt;p&gt;The outage started on Feb 23 is over. Grex is operational. Some of
+the GPU compute nodes may still be unavailable, and will be in production shortly.&lt;/p&gt;
+&lt;h4 id="hpcc-planned-power-outage"&gt;HPCC planned power outage&lt;/h4&gt;
+&lt;p&gt;Physical Plant had informed us that it plans to shut down power feed for transformer work, to several buildings including HPCC where Grex is located.
+For this reason, we have a complete Grex outage starting from 7 AM, Feb 23, 2025. The planned end of the outage is by the end of the day on Monday, Feb 24.
+The system is completely be unavailable to the users. Login nodes and data are not be accessible during the outage.&lt;/p&gt;</description><content type="html">&lt;h4 id="hpcc-planned-power-outage-update"&gt;HPCC planned power outage update&lt;/h4&gt;
+&lt;p&gt;The outage started on Feb 23 is over. Grex is operational. Some of
+the GPU compute nodes may still be unavailable, and will be in production shortly.&lt;/p&gt;
+&lt;h4 id="hpcc-planned-power-outage"&gt;HPCC planned power outage&lt;/h4&gt;
+&lt;p&gt;Physical Plant had informed us that it plans to shut down power feed for transformer work, to several buildings including HPCC where Grex is located.
+For this reason, we have a complete Grex outage starting from 7 AM, Feb 23, 2025. The planned end of the outage is by the end of the day on Monday, Feb 24.
+The system is completely be unavailable to the users. Login nodes and data are not be accessible during the outage.&lt;/p&gt;</content></item><item><title>[Resolved] Unplanned SLURM outage due to a problematic update</title><link>https://um-grex.github.io/grex-status/issues/2025-01-21-slurm-update-outage/</link><pubDate>Tue, 21 Jan 2025 11:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2025-01-21-slurm-update-outage/</guid><category>2025-01-21 16:05:00</category><description>&lt;h4 id="slurm-scheduler-update-done"&gt;SLURM scheduler update done&lt;/h4&gt;
+&lt;p&gt;We have finished updating SLURM scheduler on Grex. Running jobs should not have been affected, but couple of new jobs have failed to start and need to be resubmitted.
+Sorry about the inconvenience!&lt;/p&gt;
+&lt;p&gt;In case you experience problems with the updated schedler , please do not hesitate to contact &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt;, mentioning Grex in the subject line.&lt;/p&gt;
+&lt;h4 id="slurm-scheduler-outage"&gt;SLURM scheduler outage&lt;/h4&gt;
+&lt;p&gt;Due to a glitch during rolling SLURM scheduler update, new compute jobs are failing to start on Grex.
+We are working on fixing the issue. Thank you for your patience!&lt;/p&gt;</description><content type="html">&lt;h4 id="slurm-scheduler-update-done"&gt;SLURM scheduler update done&lt;/h4&gt;
+&lt;p&gt;We have finished updating SLURM scheduler on Grex. Running jobs should not have been affected, but couple of new jobs have failed to start and need to be resubmitted.
+Sorry about the inconvenience!&lt;/p&gt;
+&lt;p&gt;In case you experience problems with the updated schedler , please do not hesitate to contact &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt;, mentioning Grex in the subject line.&lt;/p&gt;
+&lt;h4 id="slurm-scheduler-outage"&gt;SLURM scheduler outage&lt;/h4&gt;
+&lt;p&gt;Due to a glitch during rolling SLURM scheduler update, new compute jobs are failing to start on Grex.
+We are working on fixing the issue. Thank you for your patience!&lt;/p&gt;</content></item><item><title>[Resolved] Planned HPCC/Grex outage for electrical and cooling work.</title><link>https://um-grex.github.io/grex-status/issues/2024-08-26-planned-hpcc-outage/</link><pubDate>Mon, 26 Aug 2024 08:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2024-08-26-planned-hpcc-outage/</guid><category>2024-09-10 16:00:00</category><description>&lt;h4 id="update-sept--10"&gt;Update Sept 10&lt;/h4&gt;
+&lt;p&gt;The outage is over. Grex is fully online and available to users.
+There are many important changes made on the Grex system. Please check them out at:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://um-grex.github.io/grex-docs/updates/"&gt;https://um-grex.github.io/grex-docs/updates/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Your Grex HPC team.&lt;/p&gt;
+&lt;h4 id="update-sept--6"&gt;Update Sept 6&lt;/h4&gt;
+&lt;p&gt;Due to a delay with deployment of the new water cooling system, Grex&amp;rsquo;s outage is extended until Wednesday, Sept. 11.
+At this point, the cooling for new row of racks cannot be fully enabled. Thus, the partial availability of Grex continues.&lt;/p&gt;</description><content type="html">&lt;h4 id="update-sept--10"&gt;Update Sept 10&lt;/h4&gt;
+&lt;p&gt;The outage is over. Grex is fully online and available to users.
+There are many important changes made on the Grex system. Please check them out at:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://um-grex.github.io/grex-docs/updates/"&gt;https://um-grex.github.io/grex-docs/updates/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Your Grex HPC team.&lt;/p&gt;
+&lt;h4 id="update-sept--6"&gt;Update Sept 6&lt;/h4&gt;
+&lt;p&gt;Due to a delay with deployment of the new water cooling system, Grex&amp;rsquo;s outage is extended until Wednesday, Sept. 11.
+At this point, the cooling for new row of racks cannot be fully enabled. Thus, the partial availability of Grex continues.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SSH to Login nodes (yak.hpc.umanitoba.ca; grex.hpc.umanitoba.ca is now a yak alias)&lt;/li&gt;
+&lt;li&gt;Home and Project file systems are online.&lt;/li&gt;
+&lt;li&gt;OpenOnDemand portal (&lt;a href="https://zebu.hpc.umanitoba.ca"&gt;https://zebu.hpc.umanitoba.ca&lt;/a&gt;, Simplified Desktop) is online&lt;/li&gt;
+&lt;li&gt;Running jobs of short duration (must end before September 9, 2024) on skylake and GPU partitions would work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thank you for your patience!&lt;/p&gt;
+&lt;h4 id="update-aug-30"&gt;Update Aug 30&lt;/h4&gt;
+&lt;p&gt;We have completed the migration of all of the storage systems, and most of the compute servers into the new datacentre racks.
+However, the cooling system installation and acceptance is due next week, so the Grex system is not yet fully online.&lt;/p&gt;
+&lt;p&gt;During the long weekend, users have access to the following Grex services or systems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SSH to Login nodes (yak.hpc.umanitoba.ca; grex.hpc.umanitoba.ca is now a yak alias)&lt;/li&gt;
+&lt;li&gt;Home and Project file systems are online.&lt;/li&gt;
+&lt;li&gt;OpenOnDemand portal (&lt;a href="https://zebu.hpc.umanitoba.ca"&gt;https://zebu.hpc.umanitoba.ca&lt;/a&gt;, Simplified Desktop) is online&lt;/li&gt;
+&lt;li&gt;Running jobs of short duration (must end before September 3, 2024) on skylake and some of the GPU partitions would work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following systems or services are as of now offline and unavailable: Old login nodes tatanka and bison are decommissioned and unavailable. grex.hpc.umanitoba.ca is now a yak alias. Old compute partition is decommissioned and unavailable. Most new GPU and CPU partitions are offline because the cooling system is yet to be completed in HPCC.&lt;/p&gt;
+&lt;h4 id="update-as-of-aug-28"&gt;Update as of Aug 28&lt;/h4&gt;
+&lt;p&gt;The First phase: Aug 26 - Aug 28, 2024 is done. We have migrated our storage, login and management nodes to the final location.
+Grex is now partially open for users with limitted services:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; - Use the login nodes and OOD portal
+- Access to storage {home and project} if you need to access your data.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Please note that users can not yet submit jobs as the migration of the compute nodes is not done yet, pending completion of the new cooling systems. We may also experience intermittent interruptions with access to the storage and the login nodes as we are continue with the outage.&lt;/p&gt;
+&lt;h4 id="outage-started-on-aug-26"&gt;Outage started on Aug 26&lt;/h4&gt;
+&lt;p&gt;There is a planned outage on Grex in effect now.&lt;/p&gt;
+&lt;p&gt;During this outage, Physical Plant will work on HPCC power and cooling, and the entire Grex system will be powered down. Then, the system will be migrated to our new water cooled rack infrastructure.&lt;/p&gt;
+&lt;p&gt;Users will not have access to any Grex services (compute, storage and the OOD Web portal) during the fist stage of the outage that is expected to last at least three days (until Aug 29).&lt;/p&gt;
+&lt;p&gt;We will be updating this page as the work in HPCC progresses.&lt;/p&gt;
+&lt;p&gt;Should you have any questions about the upcoming Grex outage, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; ! Thank you for your patience,&lt;/p&gt;
+&lt;p&gt;Your Grex HPC team.&lt;/p&gt;</content></item><item><title>[Resolved] Planned HPCC/Grex outage for electrical and cooling work.</title><link>https://um-grex.github.io/grex-status/issues/2024-07-16-planned-hpcc-outage/</link><pubDate>Tue, 16 Jul 2024 06:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2024-07-16-planned-hpcc-outage/</guid><category>2024-07-18 18:00:00</category><description>&lt;h4 id="update-3-on-july-18"&gt;Update 3 on July 18&lt;/h4&gt;
+&lt;p&gt;Cooling in HPCC is working, so the outage is over and Grex is operational.&lt;/p&gt;
+&lt;h4 id="update-2-on-july-17"&gt;Update 2 on July 17&lt;/h4&gt;
+&lt;p&gt;Unfortunately, due to heat outside of the datacentre, and the work inside the datacentre, we were unable to keep the environment cool enough to run even the storage and login nodes. So Grex is fully powered down again.&lt;/p&gt;
+&lt;h4 id="update-1-on-july-17"&gt;Update 1 on July 17&lt;/h4&gt;
+&lt;p&gt;The electrical part of the update is over. We have powered up Grex login nodes and storage, so the users can SSH in and access their data.
+What does not yet work is compute, because water cooling is being worked on. So no jobs will get started, and OOD Web portal on zebu is also down.&lt;/p&gt;</description><content type="html">&lt;h4 id="update-3-on-july-18"&gt;Update 3 on July 18&lt;/h4&gt;
+&lt;p&gt;Cooling in HPCC is working, so the outage is over and Grex is operational.&lt;/p&gt;
+&lt;h4 id="update-2-on-july-17"&gt;Update 2 on July 17&lt;/h4&gt;
+&lt;p&gt;Unfortunately, due to heat outside of the datacentre, and the work inside the datacentre, we were unable to keep the environment cool enough to run even the storage and login nodes. So Grex is fully powered down again.&lt;/p&gt;
+&lt;h4 id="update-1-on-july-17"&gt;Update 1 on July 17&lt;/h4&gt;
+&lt;p&gt;The electrical part of the update is over. We have powered up Grex login nodes and storage, so the users can SSH in and access their data.
+What does not yet work is compute, because water cooling is being worked on. So no jobs will get started, and OOD Web portal on zebu is also down.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have questions or concerns, please don&amp;rsquo;t hesitate to contact us at: support@tech.alliancecan.ca&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="outage-started-on-july-16"&gt;Outage started on July 16&lt;/h4&gt;
+&lt;p&gt;There is a planned outage on Grex in effect now.
+During this outage, Physical Plant will work on HPCC power and cooling, and the entire Grex system will be powered down.&lt;/p&gt;
+&lt;p&gt;Users will not have access to any Grex services (compute and storage and Web portal) during the outage. During the outage, all running jobs will be terminated.&lt;/p&gt;
+&lt;p&gt;Should you have any questions about the upcoming Grex outage, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; ! Thank you for your patience,&lt;/p&gt;
+&lt;p&gt;Your Grex HPC team.&lt;/p&gt;</content></item><item><title>[Resolved] Planned Grex outage for Lustre FS and Major Linux update</title><link>https://um-grex.github.io/grex-status/issues/2024-05-07-planned-lustre-outage/</link><pubDate>Tue, 07 May 2024 09:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2024-05-07-planned-lustre-outage/</guid><category>2024-05-10 13:00:00</category><description>&lt;h4 id="final-update-on-may-10"&gt;Final update on May 10&lt;/h4&gt;
+&lt;p&gt;The OS and Lustre update outage is over!&lt;/p&gt;
+&lt;p&gt;The OS on Grex was upgraded to Alma Linux on all CPU, GPU and login nodes {except for bison, tatanka and compute partition}. Now, Grex is available for running jobs. Please note the changes about software stack:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://um-grex.github.io/grex-docs/updates/"&gt;https://um-grex.github.io/grex-docs/updates/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have questions or concerns, please don&amp;rsquo;t hesitate to contact us at: support@tech.alliancecan.ca&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="update-on-may-9"&gt;Update on May 9&lt;/h4&gt;
+&lt;p&gt;The outage extended into May 10. The /home filesystem had been updated; update of the Linux OS and HPC software is still in progress.
+Sorry about the inconvenience and thank you for your patience!&lt;/p&gt;</description><content type="html">&lt;h4 id="final-update-on-may-10"&gt;Final update on May 10&lt;/h4&gt;
+&lt;p&gt;The OS and Lustre update outage is over!&lt;/p&gt;
+&lt;p&gt;The OS on Grex was upgraded to Alma Linux on all CPU, GPU and login nodes {except for bison, tatanka and compute partition}. Now, Grex is available for running jobs. Please note the changes about software stack:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="https://um-grex.github.io/grex-docs/updates/"&gt;https://um-grex.github.io/grex-docs/updates/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have questions or concerns, please don&amp;rsquo;t hesitate to contact us at: support@tech.alliancecan.ca&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="update-on-may-9"&gt;Update on May 9&lt;/h4&gt;
+&lt;p&gt;The outage extended into May 10. The /home filesystem had been updated; update of the Linux OS and HPC software is still in progress.
+Sorry about the inconvenience and thank you for your patience!&lt;/p&gt;
+&lt;h4 id="update-on-may-8"&gt;Update on May 8&lt;/h4&gt;
+&lt;p&gt;The outage continues. The /project filesystem appliance had been updated.
+We are working on updating the /home filesystem, Linux OS and HPC software stacks. The system is still closed for users.&lt;/p&gt;
+&lt;h4 id="grex-system-outage-on-may-7---9-2024"&gt;Grex system outage on May 7 - 9 2024&lt;/h4&gt;
+&lt;p&gt;There is a planned outage on Grex in effect now .
+We are performing a major update of the DDN Lustre storage controller. We will also do a major Linux OS update from CentOS 7 to AlmaLinux 8.
+We will reboot and reinstall all of Grex compute and login nodes. All running and queued jobs will be deleted.
+Grex login nodes , compute and storage will be unavailable during the outage window. Thank you for your patience!
+Should you have questions or concerns, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; !&lt;/p&gt;</content></item><item><title>[Resolved] Planned Grex outage for SLURM and minor OS update</title><link>https://um-grex.github.io/grex-status/issues/2023-12-18-planned-outage/</link><pubDate>Mon, 18 Dec 2023 09:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2023-12-18-planned-outage/</guid><category>2023-12-19 18:00:00</category><description>&lt;h4 id="grex-system-outage-completed-on-dec-19-2023"&gt;Grex system outage completed on Dec 19 2023&lt;/h4&gt;
+&lt;p&gt;The SLURM scheduler had been updated. Linux OS also had a minor update. The Grex system is now fully operational.
+If you encounter any problems, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; !&lt;/p&gt;
+&lt;h4 id="grex-system-outage-on-december-18-2023"&gt;Grex system outage on December 18 2023&lt;/h4&gt;
+&lt;p&gt;There is a planned outage on Grex in effect. We are performing a major update of the SLURM scheduler, communication libraries, and minor Linux OS updates for security patching.&lt;/p&gt;</description><content type="html">&lt;h4 id="grex-system-outage-completed-on-dec-19-2023"&gt;Grex system outage completed on Dec 19 2023&lt;/h4&gt;
+&lt;p&gt;The SLURM scheduler had been updated. Linux OS also had a minor update. The Grex system is now fully operational.
+If you encounter any problems, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; !&lt;/p&gt;
+&lt;h4 id="grex-system-outage-on-december-18-2023"&gt;Grex system outage on December 18 2023&lt;/h4&gt;
+&lt;p&gt;There is a planned outage on Grex in effect. We are performing a major update of the SLURM scheduler, communication libraries, and minor Linux OS updates for security patching.&lt;/p&gt;
+&lt;p&gt;We will eboot and reinstall all of Grex compute and login nodes and to migrate the SLURM job database.
+Thus Jobs that are still running by the time of the outage will be lost, and Grex login nodes will be unavailable during the outage window.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience! Should you have questions or concerns, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; !&lt;/p&gt;</content></item><item><title>[Resolved] Two Planned Grex outages for HPCC transformer work</title><link>https://um-grex.github.io/grex-status/issues/2023-09-12_18-planned-grex-outages/</link><pubDate>Tue, 12 Sep 2023 18:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2023-09-12_18-planned-grex-outages/</guid><category>2023-09-19 21:00:00</category><description>&lt;h4 id="both-power-outages-are-now-complete"&gt;Both power outages are now complete&lt;/h4&gt;
+&lt;p&gt;Grex system is open to the users. Queued jobs were not affected and seems to be running now.
+There were no major upgrades or changes done during the outage.&lt;/p&gt;
+&lt;h4 id="planned-grex-power-outages-in-september-2023"&gt;Planned Grex power outages in September 2023&lt;/h4&gt;
+&lt;p&gt;The Physical Plant is about to perform some electrical works on the transformer that feeds, amongst other things on campus, the HPCC data center that hosts Grex. The outage will start for 6 PM on September 12 and September 19. These outages would require a complete power shutdown in HPCC for about an hour, which means the system would be completely inaccessible to the users, and all running jobs would be terminated.&lt;/p&gt;</description><content type="html">&lt;h4 id="both-power-outages-are-now-complete"&gt;Both power outages are now complete&lt;/h4&gt;
+&lt;p&gt;Grex system is open to the users. Queued jobs were not affected and seems to be running now.
+There were no major upgrades or changes done during the outage.&lt;/p&gt;
+&lt;h4 id="planned-grex-power-outages-in-september-2023"&gt;Planned Grex power outages in September 2023&lt;/h4&gt;
+&lt;p&gt;The Physical Plant is about to perform some electrical works on the transformer that feeds, amongst other things on campus, the HPCC data center that hosts Grex. The outage will start for 6 PM on September 12 and September 19. These outages would require a complete power shutdown in HPCC for about an hour, which means the system would be completely inaccessible to the users, and all running jobs would be terminated.&lt;/p&gt;
+&lt;p&gt;To avoid the failure of jobs, we have made two reservations to avoid any longer jobs (that cannot be finished before the beginning of the outage) from starting. For more information, run the following command from any login node: &amp;ldquo;scontrol show res&amp;rdquo;. To take advantage of the cluster before, and between, the outages, we recommend users submit short jobs that can finish by the time the upcoming outage begins.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience! Should you have questions or concerns, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; !&lt;/p&gt;</content></item><item><title>[Resolved] Unplanned power outage in HPCC datacentre</title><link>https://um-grex.github.io/grex-status/issues/2023-05-30-unplanned-power-outage/</link><pubDate>Tue, 30 May 2023 07:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2023-05-30-unplanned-power-outage/</guid><category>2023-05-30 09:30:00</category><description>&lt;h4 id="update-outage-concluded"&gt;UPDATE: outage concluded&lt;/h4&gt;
+&lt;p&gt;Grex compute and storage are back up after 1 1/2 hour of downtime. Please restart
+your jobs! If you notice any further malfuncions, please do not hesitate
+to contact us at the &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning &amp;ldquo;Grex&amp;rdquo; in the subject line.&lt;/p&gt;
+&lt;h4 id="unplanned-power-loss-at-hpcc-datacentre"&gt;Unplanned power loss at HPCC datacentre&lt;/h4&gt;
+&lt;p&gt;NOTICE: On May 30. 7AM to 8:14AM there was an unplanned power outage in HPCC
+that rebooted all the Grex compute nodes, storage, and management systems.
+Running jobs were lost. We apologize for the inconvenience. We work on restarting
+and testing of the system.&lt;/p&gt;</description><content type="html">&lt;h4 id="update-outage-concluded"&gt;UPDATE: outage concluded&lt;/h4&gt;
+&lt;p&gt;Grex compute and storage are back up after 1 1/2 hour of downtime. Please restart
+your jobs! If you notice any further malfuncions, please do not hesitate
+to contact us at the &lt;a href="mailto:support@tech.alliancecan.ca"&gt;support@tech.alliancecan.ca&lt;/a&gt; , mentioning &amp;ldquo;Grex&amp;rdquo; in the subject line.&lt;/p&gt;
+&lt;h4 id="unplanned-power-loss-at-hpcc-datacentre"&gt;Unplanned power loss at HPCC datacentre&lt;/h4&gt;
+&lt;p&gt;NOTICE: On May 30. 7AM to 8:14AM there was an unplanned power outage in HPCC
+that rebooted all the Grex compute nodes, storage, and management systems.
+Running jobs were lost. We apologize for the inconvenience. We work on restarting
+and testing of the system.&lt;/p&gt;</content></item><item><title>[Resolved] Planned Grex outage for HPCC work and storage update</title><link>https://um-grex.github.io/grex-status/issues/2023-02-22-planned-grex-outage/</link><pubDate>Wed, 22 Feb 2023 14:30:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2023-02-22-planned-grex-outage/</guid><category>2023-02-27 3:00:00</category><description>&lt;h4 id="update-outage-concluded"&gt;UPDATE: outage concluded&lt;/h4&gt;
+&lt;p&gt;During the outage of Feb 22, few changes have been made on Grex:
+We reinstalled all login and compute nodes with a new image to fix the errors with UCX.
+We have added a new storage “project” with similar structure as for Compute Canada.
+All the data from scratch has been moved to the project file system.&lt;/p&gt;
+&lt;p&gt;For an overview of the changes, please have a look to the documentation page:&lt;/p&gt;</description><content type="html">&lt;h4 id="update-outage-concluded"&gt;UPDATE: outage concluded&lt;/h4&gt;
+&lt;p&gt;During the outage of Feb 22, few changes have been made on Grex:
+We reinstalled all login and compute nodes with a new image to fix the errors with UCX.
+We have added a new storage “project” with similar structure as for Compute Canada.
+All the data from scratch has been moved to the project file system.&lt;/p&gt;
+&lt;p&gt;For an overview of the changes, please have a look to the documentation page:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://um-grex.github.io/grex-docs/docs/lustre/"&gt;https://um-grex.github.io/grex-docs/docs/lustre/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="planned-grex-outage"&gt;Planned Grex outage&lt;/h4&gt;
+&lt;p&gt;The Grex storage outage is about to start. Please save your interactive work! ETA for the outage&amp;rsquo;s end is Feb 23 or Friday, Feb 24, 2023.&lt;/p&gt;
+&lt;p&gt;During the outage we are planning to reboot and reinstall all of Grex compute and login nodes, connect the new Project storage, and perform some re-cabling of the Infiniband fabric of the cluster.
+Jobs that are still running by the time of the outage will be lost, and Grex login nodes will be unavailable during the outage window.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience! If you have questions or concerns regarding the outage, please do not hesitate to contact us at &lt;a href="mailto:support@tech.alliancecan.ca"&gt;mailto:support@tech.alliancecan.ca&lt;/a&gt; !&lt;/p&gt;</content></item><item><title>[Resolved] Datacentre Plumbing works October 20, 2022</title><link>https://um-grex.github.io/grex-status/issues/2022-10-20-datacentre-plumbing/</link><pubDate>Thu, 20 Oct 2022 09:30:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2022-10-20-datacentre-plumbing/</guid><category>2022-10-20 2:15:00</category><description>&lt;h2 id="update-work-is-done--no-issues"&gt;Update: work is done , no issues&lt;/h2&gt;
+&lt;p&gt;Grex is fully operational. Some of the compute nodes (largemem and skylake) were restarted.&lt;/p&gt;
+&lt;h2 id="planned-hpcc-work-shuts-down-some-of-the-compute-nodes"&gt;Planned HPCC work shuts down some of the compute nodes&lt;/h2&gt;
+&lt;p&gt;Due to planned Datacentre work we have a partial Grex outage. Some of the racks with compute nodes were shut down, and jobs running on them are terminated.&lt;/p&gt;</description><content type="html">&lt;h2 id="update-work-is-done--no-issues"&gt;Update: work is done , no issues&lt;/h2&gt;
+&lt;p&gt;Grex is fully operational. Some of the compute nodes (largemem and skylake) were restarted.&lt;/p&gt;
+&lt;h2 id="planned-hpcc-work-shuts-down-some-of-the-compute-nodes"&gt;Planned HPCC work shuts down some of the compute nodes&lt;/h2&gt;
+&lt;p&gt;Due to planned Datacentre work we have a partial Grex outage. Some of the racks with compute nodes were shut down, and jobs running on them are terminated.&lt;/p&gt;</content></item><item><title>[Resolved] Brief power outage on May 31, 2022</title><link>https://um-grex.github.io/grex-status/issues/2022-05-31-partial-power-outage/</link><pubDate>Tue, 31 May 2022 01:30:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2022-05-31-partial-power-outage/</guid><category>2022-05-31 2:00:00</category><description>&lt;h2 id="a-brownout-rebooted-130-compute-nodes"&gt;A brownout rebooted 130 compute nodes&lt;/h2&gt;
+&lt;p&gt;There was a brief power interruptions in Grex datacentre. Many legacy of compute nodes got rebooted.
+Most running jobs were lost. Overall, the Grex keept working, network, login nodes, storage and managing VMs seems to have been unaffected.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please don’t hesitate to contact us at: &lt;a href="mailto:support@computecanada.ca"&gt;support@computecanada.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</description><content type="html">&lt;h2 id="a-brownout-rebooted-130-compute-nodes"&gt;A brownout rebooted 130 compute nodes&lt;/h2&gt;
+&lt;p&gt;There was a brief power interruptions in Grex datacentre. Many legacy of compute nodes got rebooted.
+Most running jobs were lost. Overall, the Grex keept working, network, login nodes, storage and managing VMs seems to have been unaffected.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please don’t hesitate to contact us at: &lt;a href="mailto:support@computecanada.ca"&gt;support@computecanada.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</content></item><item><title>[Resolved] Emergency SLURM update wiped all running jobs</title><link>https://um-grex.github.io/grex-status/issues/2022-05-09-slurm-emergency-update/</link><pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2022-05-09-slurm-emergency-update/</guid><category>2022-05-09 11:00:00</category><description>&lt;h2 id="slurm-security-update"&gt;SLURM security update&lt;/h2&gt;
+&lt;p&gt;SLURM scheduler&amp;rsquo;s authors announced a severe security vulnerability, and dropped old SLURM versions from support at the same time.
+This forced us to upgrade SLURM version 19 we used to run, to the supported version 21, immediately.
+Unfortunately, the SLURM state got corrupted during the update, and all running jobs were lost. We apologize for the inconvenience.&lt;/p&gt;
+&lt;p&gt;The system is expected to run normally with the new SLURM. If you notice any anomalies, please contact us at &lt;a href="mailto:support@computecanada.ca"&gt;support@computecanada.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</description><content type="html">&lt;h2 id="slurm-security-update"&gt;SLURM security update&lt;/h2&gt;
+&lt;p&gt;SLURM scheduler&amp;rsquo;s authors announced a severe security vulnerability, and dropped old SLURM versions from support at the same time.
+This forced us to upgrade SLURM version 19 we used to run, to the supported version 21, immediately.
+Unfortunately, the SLURM state got corrupted during the update, and all running jobs were lost. We apologize for the inconvenience.&lt;/p&gt;
+&lt;p&gt;The system is expected to run normally with the new SLURM. If you notice any anomalies, please contact us at &lt;a href="mailto:support@computecanada.ca"&gt;support@computecanada.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</content></item><item><title>[Resolved] Brief power outages on April 23, 24 , 2022</title><link>https://um-grex.github.io/grex-status/issues/2022-04-24-partial-power-outage/</link><pubDate>Sun, 24 Apr 2022 11:30:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2022-04-24-partial-power-outage/</guid><category>2022-04-24 13:00:00</category><description>&lt;h2 id="a-series-of-brownouts"&gt;A series of brownouts&lt;/h2&gt;
+&lt;p&gt;There were two brief power interruptions in Grex datacentre, one on Saturday, APril 24 and another on Sunday, April 24. Most of compute nodes got rebooted.
+Most running jobs were lost. Overall, the Grex keept working, network, login nodes, storage and managing VMs seems to have been unaffected.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please don’t hesitate to contact us at: &lt;a href="mailto:support@computecanada.ca"&gt;support@computecanada.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</description><content type="html">&lt;h2 id="a-series-of-brownouts"&gt;A series of brownouts&lt;/h2&gt;
+&lt;p&gt;There were two brief power interruptions in Grex datacentre, one on Saturday, APril 24 and another on Sunday, April 24. Most of compute nodes got rebooted.
+Most running jobs were lost. Overall, the Grex keept working, network, login nodes, storage and managing VMs seems to have been unaffected.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please don’t hesitate to contact us at: &lt;a href="mailto:support@computecanada.ca"&gt;support@computecanada.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</content></item><item><title>[Resolved] Brief power outages on October 23, 2021</title><link>https://um-grex.github.io/grex-status/issues/2021-10-23-unplanned-power-outages/</link><pubDate>Sat, 23 Oct 2021 15:30:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2021-10-23-unplanned-power-outages/</guid><category>2021-10-24 1:00:00</category><description>&lt;h2 id="a-series-of-brownouts"&gt;A series of brownouts&lt;/h2&gt;
+&lt;p&gt;There were at least two brief power interruptions in Grex datacentre. Some, but not all of the compute and login nodes rebooted as a result. Some, but not all, running jobs were lost.
+Overall, the Grex keept working, network, storage and managing VMs seems to have been unaffected.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please don’t hesitate to contact us at: &lt;a href="mailto:support@computecanada.ca"&gt;support@computecanada.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</description><content type="html">&lt;h2 id="a-series-of-brownouts"&gt;A series of brownouts&lt;/h2&gt;
+&lt;p&gt;There were at least two brief power interruptions in Grex datacentre. Some, but not all of the compute and login nodes rebooted as a result. Some, but not all, running jobs were lost.
+Overall, the Grex keept working, network, storage and managing VMs seems to have been unaffected.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please don’t hesitate to contact us at: &lt;a href="mailto:support@computecanada.ca"&gt;support@computecanada.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</content></item><item><title>[Resolved] Planned power outage Aug 31 to Sept 1</title><link>https://um-grex.github.io/grex-status/issues/2021-08-31-planed-power-outage/</link><pubDate>Tue, 31 Aug 2021 08:00:00 +0000</pubDate><guid>https://um-grex.github.io/grex-status/issues/2021-08-31-planed-power-outage/</guid><category>2021-09-01 12:00:00</category><description>&lt;h2 id="grex-is-back-online"&gt;Grex is back online&lt;/h2&gt;
+&lt;p&gt;Grex is back online, accepting CPU jobs. GPU nodes will take a bit more to reinstall NVIDIA updates, but will be online by end of today.&lt;/p&gt;
+&lt;p&gt;The previous jobs on the queue were lost since the outage afftected all
+compute nodes that are rebooted after restoring the power. Please check
+your data and re-submit the jobs that are not done before the outage.&lt;/p&gt;
+&lt;h2 id="grex-will-be-down-for-a-campus-power-maintenance"&gt;Grex will be down for a campus power maintenance&lt;/h2&gt;
+&lt;p&gt;Physical Plant has a planning a power outage for power breakers maintenance. This will affect Grex building, so and all the nodes and strage systems will be shut-down. The system will be unavailable for users, and all running jobs will be lost. We will be performing some work on Grex during the maintenance window as well. ETA for Grex availabinity is noon, September 1.&lt;/p&gt;</description><content type="html">&lt;h2 id="grex-is-back-online"&gt;Grex is back online&lt;/h2&gt;
+&lt;p&gt;Grex is back online, accepting CPU jobs. GPU nodes will take a bit more to reinstall NVIDIA updates, but will be online by end of today.&lt;/p&gt;
+&lt;p&gt;The previous jobs on the queue were lost since the outage afftected all
+compute nodes that are rebooted after restoring the power. Please check
+your data and re-submit the jobs that are not done before the outage.&lt;/p&gt;
+&lt;h2 id="grex-will-be-down-for-a-campus-power-maintenance"&gt;Grex will be down for a campus power maintenance&lt;/h2&gt;
+&lt;p&gt;Physical Plant has a planning a power outage for power breakers maintenance. This will affect Grex building, so and all the nodes and strage systems will be shut-down. The system will be unavailable for users, and all running jobs will be lost. We will be performing some work on Grex during the maintenance window as well. ETA for Grex availabinity is noon, September 1.&lt;/p&gt;
+&lt;p&gt;If you have questions or concerns, please don’t hesitate to contact us at: &lt;a href="mailto:support@computecanada.ca"&gt;support@computecanada.ca&lt;/a&gt; , mentioning Grex in the subject line.&lt;/p&gt;</content></item></channel></rss>
