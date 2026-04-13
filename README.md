@@ -4,7 +4,7 @@
 
 The idea is to have a completely static website that is portable and can be hosted anywhere without overhead and risks of maintaing secure LAMP stack. It is also good that the content would be living in plain text files like dokuwiki. At the same time, we'd want to have an easy to use CMS with something like Markdown syntax (and without the need to learn any web tools like Jekyll). 
 
-The Hugo [https://gohugo.io] satisfies our needs. Shadocs theme seems to be the way to do documentation websites. 
+The Hugo [https://gohugo.io] satisfies our needs. CState theme seems to be the way to do status websites. 
 
 Conventions:
 
@@ -23,7 +23,7 @@ The Hugo version to work with is the latest stable, extended.
 
 2. Clone this repository to get the currently used Hugo theme:
 
-   `git clone https://github.com/um-grex/grex-docs.git`
+   `git clone https://github.com/um-grex/status.git`
 
 3. Change to the repository and render it with Hugo:
 

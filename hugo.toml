@@ -13,7 +13,7 @@ publishDir             = 'public'
 preserveTaxonomyNames  = true
 
 [param.author]
-  name = 'Ali Kerrache, Grigory Shamov, Stefano Ansaloni'
+  name = 'Grigory Shamov'
 
 #================================================================================
 # Languages parameters
@@ -68,6 +68,9 @@ preserveTaxonomyNames  = true
   # Should incident history be separated like in an archive view?
   incidentHistoryFormat = 'yearly'
 
+  # Hide incidents older than this number of years
+  incidentMaxAgeYears = 5
+
   # Should incident history be hidden?
   disableIncidentHistory = false
 
@@ -108,7 +111,7 @@ preserveTaxonomyNames  = true
 
   [[params.customTabs]]
     name = 'Grex Documentation'
-    link = 'https://um-grex.github.io/grex-docs'
+    link = 'https://um-grex.github.io/docs'
   [[params.customTabs]]
     name = 'UManitoba IT Service Catalogue'
     link = 'https://umanitoba.ca/information-services-technology/research-computing'
