@@ -1,0 +1,179 @@
+#================================================================================
+# Standard configuration
+#================================================================================
+
+baseURL                = 'https://um-grex.github.io/status/'
+title                  = 'Status of the Grex HPC system'
+copyright              = 'The MIT License (MIT) Copyright © 2025 UM-Grex'
+theme                  = 'cstate'
+locale                 = 'en-us'
+defaultContentLanguage = 'en'
+enableEmoji            = false
+publishDir             = 'public'
+preserveTaxonomyNames  = true
+
+[param.author]
+  name = 'Ali Kerrache, Grigory Shamov, Stefano Ansaloni'
+
+#================================================================================
+# Languages parameters
+#================================================================================
+
+[Languages]
+  [Languages.en]
+    contentDir   = 'content/english'
+    title        = 'Status of the Grex HPC system'
+    weight       = 1
+    label        = 'English'
+#  [Languages.fr]
+#    contentDir   = 'content/french'
+#    title        = 'État du systéme Grex HPC'
+#    weight       = 2
+#    label        = 'Français'
+
+#================================================================================
+# Specific configuration
+#================================================================================
+[taxonomies]
+  affected = 'affected'
+
+[outputs]
+  home    = ['html', 'json', 'rss', 'svg']
+  page    = ['html', 'json']
+  section = ['html', 'json', 'rss']
+  term    = ['html', 'json', 'rss']
+
+[outputFormats.svg]
+  isPlainText = true
+  mediaType   = 'image/svg+xml'
+
+[params]
+  # Hugo formatting docs:
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat      = 'January 2, 2006 at 15:04 UTC'
+  shortDateFormat = '15:04 UTC — Jan 2'
+
+  # Should relative time (x min ago) be used?
+  useRelativeTime = true
+
+  # If enabled, doesn't show seconds on relative times
+  skipSeconds = false
+
+  # Should there be an automatic "Last updated" text shown below issues?
+  enableLastMod = true
+
+  # What header design should we use?
+  useLargeHeaderDesign = true
+
+  # Should incident history be separated like in an archive view?
+  incidentHistoryFormat = 'yearly'
+
+  # Should incident history be hidden?
+  disableIncidentHistory = false
+
+  # Disable dark mode
+  disableDarkMode = false
+
+  # Should we show the logo or the title of the status page?
+  useLogo = false
+
+  # Where is the logo located, if one is present at all?
+  logo = 'logo/um_logo_email_signature.png'
+
+  # This is the description that is shown on the footer and meta tags
+  description = 'This is a status page for the Grex high-performance computing system. Incidents and planned maintenance outages will be posted here.'
+
+  # Disable complex server-side calculations that may impact your build performance
+  disableComplexCalculations = false
+
+  # Incident posts shown in one page
+  incidentPostsPerPage = 10
+
+  # Colors throughout cState
+  brand     = '#0a0c0f'
+  ok        = '#008000'
+  disrupted = '#cc4400'
+  down      = '#e60000'
+  notice    = '#24478f'
+
+  # If the status page shows that there are disruptions or outages happening, should it keep the
+  # brand header color or drop it and use the status indication colors that were just defined?
+  alwaysKeepBrandColor = true
+
+  # If you do not use the logo, what color should the site text color be?
+  headerTextColor = 'white'
+
+  # Google Analytics tracking code
+  #googleAnalytics = 'UA-00000000-1'
+
+  [[params.customTabs]]
+    name = 'Grex Documentation'
+    link = 'https://um-grex.github.io/grex-docs'
+  [[params.customTabs]]
+    name = 'UManitoba IT Service Catalogue'
+    link = 'https://umanitoba.ca/information-services-technology/research-computing'
+
+  [[params.categories]]
+    name        = 'Compute'
+    description = 'Grex compute nodes and batch jobs'
+    closed      = true
+  [[params.categories]]
+    name        = 'Access'
+    description = 'Grex login nodes and external network'
+    closed      = true
+  [[params.categories]]
+    name        = 'Storage'
+    description = 'Grex filesystems'
+    closed      = true
+  [[params.categories]]
+    name        = 'Software'
+    description = 'Grex local and ComputeCanada software stacks'
+    closed      = true
+  [[params.categories]]
+    name     = 'Uncategorized'
+    untitled = true
+  [[params.systems]]
+    name     = 'Login nodes'
+    category = 'Access'
+  [[params.systems]]
+    name     = 'Network'
+    category = 'Access'
+  [[params.systems]]
+    name     = 'Compute nodes'
+    category = 'Compute'
+  [[params.systems]]
+    name     = 'ComputeCanada CVMFS'
+    category = 'Software'
+    hide     = true
+  [[params.systems]]
+    name     = 'OpenOnDemand portal'
+    category = 'Software'
+  [[params.systems]]
+    name     = 'NFS /home'
+    category = 'Storage'
+    hide     = true
+  [[params.systems]]
+    name     = 'Lustre /project'
+    category = 'Storage'
+#  [[params.systems]]
+#    name     = 'Lustre /global/scratch'
+#    category = 'Storage'
+#    hide     = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+          enable = true
+        [markup.goldmark.extensions.extras.insert]
+          enable = true
+        [markup.goldmark.extensions.extras.mark]
+          enable = true
+        [markup.goldmark.extensions.extras.subscript]
+          enable = true
+        [markup.goldmark.extensions.extras.superscript]
+          enable = true
+    [markup.goldmark.renderer]
+      unsafe = true
+
