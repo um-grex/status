@@ -11,7 +11,7 @@
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cstate/cstate?label=Star%20Repo&style=social">
 <a href="https://github.com/ivbeg/awesome-status-pages"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome status page" /></a></p>
 
-**[VISIT THE CSTATE WEBSITE HERE](https://cstate.netlify.app)**
+**[VISIT THE CSTATE WEBSITE HERE](https://cstate.uncascade.com)**
 
 You can support the creator of this project by starring, sharing, using cState and/or [financially supporting the author](https://github.com/sponsors/mistermantas). Thank you!
 
@@ -178,7 +178,7 @@ As you can imagine, manual building is a little bit tedious but a great option t
 
 cState comes with a Dockerfile and Netlify ([according to their article from 2016](https://www.netlify.com/blog/2016/10/18/how-our-build-bots-build-sites/)) uses a similar Docker system to build cState. This is an option for people who prefer Docker and NGINX instead of serverless, but serverless still has the priority in cState development.
 
-[Read wiki](https://github.com/cstate/cstate/wiki/Docker)
+For a quick start, you can use the prebuilt images from [AethiQs-Felix/cstate_docker](https://github.com/AethiQs-Felix/cstate_docker). For advanced usage and customization, please refer to the [Docker section of the wiki](https://github.com/cstate/cstate/wiki/Docker).
 
 ## Updating 🎉
 

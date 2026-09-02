@@ -3,7 +3,7 @@
   "cStateVersion": "6.0.1",
   "apiVersion": "2.0",
   "title": "{{ .Site.Title }}",
-  "languageCodeHTML": "{{ .Site.LanguageCode }}",
+  "languageCodeHTML": "{{ .Site.Language.Locale }}",
   "languageCode": "{{ T "languageCode" }}",
   "baseURL": "{{ .Site.BaseURL }}",
   "description": "{{ .Site.Params.Description }}",
