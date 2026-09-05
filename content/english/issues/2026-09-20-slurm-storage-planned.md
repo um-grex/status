@@ -13,6 +13,17 @@ affected:
 section: issue
 ---
 
+#### Status update as of evening of Sept 4  ####
+
+We have to extend the ongoing outage past the planned Sept.4 ending. The tentative ETA is September 8, 2026.
+ 
+ * We have successfully updated Grex’s SLURM scheduler to a current version to address a CVE.
+ * We have also migrated all user /home directories to the new storage server. This should be transparent for all users.
+ * We are still in the process of migration of /project directories to the new /project filesystem appliance.
+ 
+Due to some issues we have encountered during the storage, our data migration to the new /project filesystem took longer than the expected outage window. Thus we have to extend the Grex outage to September 8.  Some functionality like OpenOnDemand and Nextcloud is not available until the end of the outage.
+ 
+However, we are able to open Grex for SSH access now, to groups whose /project had been migrated, so that they could log in, access their data, run their jobs and thus test the system. Access to Grex is blocked for the groups whose data are still in the process of migration.  As of now, about 95% of all projects were migrated. We apologize for the delay.
 
 #### A planned Grex  outage  ####
 
