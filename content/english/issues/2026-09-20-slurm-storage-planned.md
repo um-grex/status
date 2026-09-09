@@ -1,8 +1,8 @@
 ---
 title: Planned Grex outage - updating SLURM and home
 date: 2026-09-02 08:30:00
-resolved: false
-#resolvedWhen: 2026-09-04 12:00:00
+resolved: true
+resolvedWhen: 2026-09-08 23:10:00
 severity: down
 affected:
   - Lustre /project
@@ -12,6 +12,10 @@ affected:
   - OpenOnDemand portal
 section: issue
 ---
+
+#### Sept 8, outage complete  ####
+
+All the /project migration jobs were completed. Grex is fully available.
 
 #### Status update as of evening of Sept 4  ####
 
