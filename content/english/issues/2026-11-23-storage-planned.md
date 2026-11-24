@@ -1,8 +1,8 @@
 ---
 title: Planned Grex outage - updating DDN Lustre and Home filesystems
 date: 2026-11-23 09:00:00
-resolved: false
-#resolvedWhen: 2026-11-24 18:10:00
+resolved: true
+resolvedWhen: 2026-11-24 17:30:00
 severity: down
 affected:
   - Lustre /project
@@ -12,6 +12,12 @@ affected:
   - OpenOnDemand portal
 section: issue
 ---
+
+#### Update: Outage finisged ####
+
+We have updated Lustre software as well as NFS serving /home. We have also performed a minor update of Linux OS and various management software items across Grex. 
+
+Some components are still being working on (most notably Globus endpoint) but in general, Grex is back online, running jobs, and user data is available.
 
 #### A planned Grex  outage Nov 23 ####
 
